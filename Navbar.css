@@ -1,0 +1,64 @@
+.NavBar {
+  height: 74px;
+  width: 100%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 0 2%;
+  display: flex;
+}
+.NavLeft {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 3%;
+}
+.SearchBar {
+  height: 50px;
+  width: 450px;
+  display: flex;
+  align-items: center;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 30px;
+  padding: 0 3%;
+  font-size: 120%;
+}
+.bi-search {
+  width: 10%;
+  color: grey;
+}
+.SearchBox:focus {
+  outline: none;
+}
+.SearchBox {
+  height: 100%;
+  width: 90%;
+  border-radius: 30px;
+  border: none;
+}
+.NavRight {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  padding-right: 80px;
+  gap: 20px;
+}
+.PostIdea {
+  background-color: rgba(0, 119, 235, 1);
+  color: white;
+  height: 40px;
+  width: 108px;
+  border-radius: 84px;
+  border: transparent;
+}
+.bi-bell,
+.bi-gear {
+  scale: 1.5;
+}
+.ProfileCircle {
+  height: 30px;
+  width: 30px;
+  border-radius: 100%;
+}
